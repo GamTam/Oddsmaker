@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: Sneke
+  m_EditorClassIdentifier: 
+  Name: Cryptobra
+  Level: 5
+  HP: 124
+  Pow: 8
+  Def: 4
+  Speed: 16
+  EXP: 12
+  Description:
+  - '* "Crypto-Brahs" was a semi-large tech startup that fell under.'
+  - "* They mass produced a large amount of these robotic snakes,<p:short>\n  and
+    went bankrupt three weeks later."
+  - '* Max HP is 124<p:short>
+
+    * Attack is 7<p:short>
+
+    * Defense is 4'
+  - "* Luckily,<p:short> the devs of the cryptobra weren't able\n  to give it venemous
+    fangs."

@@ -6,7 +6,82 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: bb20c99f7e520dc46aff87dad8bca6b4
+    path: Assets/Scenes/Title Screen.unity
+    guid: 978b2c0e335538e42b8d92a52cbaa0e0
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: 5df337eda87002345ae7ec785b0b2069
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: fff6163c1a2bed44e83f541b4c9d99ff
+  - enabled: 1
+    path: Assets/Scenes/Overworld Test.unity
+    guid: e17439282b9d7f141b185bea5498e204
+  - enabled: 1
+    path: Assets/Scenes/Battles/Forest1.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Matching.unity
+    guid: 94a5a34f3c5b66b448c1555ed6214905
+  - enabled: 1
+    path: Assets/Scenes/Casino.unity
+    guid: 458d078ea41064749b3dbd274f7d69e2
+  - enabled: 1
+    path: Assets/Scenes/City Outskirts.unity
+    guid: 59de80b77ef890442ad26560a43c4ac6
+  - enabled: 1
+    path: Assets/Scenes/David's Assignment.unity
+    guid: 830c2cf9a603e4a45b0c33fd5b771bce
+  - enabled: 1
+    path: Assets/Scenes/Warehouse.unity
+    guid: 77620f9b80a7fa149a42a2723678b285
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Poker.unity
+    guid: f9291bb69e8472e42aa744f2aeef1a01
+  - enabled: 1
+    path: Assets/Scenes/Battles/Desert3.unity
+    guid: 56308e9c57876c24f8c0135ecb17a6b3
+  - enabled: 1
+    path: Assets/Scenes/Battles/FinalBoss.unity
+    guid: 8a049cb48d0755845abb0c12b1463e64
+  - enabled: 1
+    path: Assets/Scenes/Battles/Forest2.unity
+    guid: 03e5f30fb53353c459cbae16f1b4fd58
+  - enabled: 1
+    path: Assets/Scenes/Battles/Forest3.unity
+    guid: fec0865719fd7a148a9eda997b353e1a
+  - enabled: 1
+    path: Assets/Scenes/Battles/ForestMiniBoss.unity
+    guid: 6744bc65b82979942a1007f2b87f57ba
+  - enabled: 1
+    path: Assets/Scenes/Battles/Warehouse1.unity
+    guid: 3896922d910d47b47ba46efe63d47dc1
+  - enabled: 1
+    path: Assets/Scenes/Battles/Warehouse2.unity
+    guid: c6d9b5934ad9fa94092b81752a101cc9
+  - enabled: 1
+    path: Assets/Scenes/Battles/Warehouse3.unity
+    guid: 44eb7168f1a599141841b1a280b7e2b1
+  - enabled: 1
+    path: Assets/Scenes/Battles/WarehouseMiniboss.unity
+    guid: 528c36fb598692346a2736343720b0b9
+  - enabled: 1
+    path: Assets/Scenes/Battles/TutorialFight.unity
+    guid: fc31ec0abc743244d89a3be470dad0f2
+  - enabled: 1
+    path: Assets/Scenes/Battles/Desert2.unity
+    guid: e0faf9a498ce22a43bcf57e32551189e
+  - enabled: 1
+    path: Assets/Scenes/Battles/Desert1.unity
+    guid: a145ac8121f4c6e4a8757af0a9b4ec82
+  - enabled: 1
+    path: Assets/Scenes/Minigames/Wheel.unity
+    guid: c3b40db4fa4fa4f4799380b9ba421184
+  - enabled: 1
+    path: Assets/Scenes/Battles/DesertMiniboss.unity
+    guid: ae33545bec1350c41bb44cbd2ee9f80c
+  - enabled: 1
+    path: Assets/Scenes/Battles/John Fight.unity
+    guid: 7edd89852da41c247b0ebc4fa3986c9b
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: d260f95d9f6960f41bd8dba409dbfa9c, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: c215e80d8bf9ef247a477981312f6dda, type: 2}

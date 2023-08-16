@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: RedHenchman
+  m_EditorClassIdentifier: 
+  Name: Red Henchman
+  Level: 7
+  HP: 203
+  Pow: 7
+  Def: 0
+  Speed: 17
+  EXP: 19
+  Description:
+  - "* The weakest of the henchmen,<p:tiny> the \n  red ones usually stand behind
+    counters\n  and talk to the visitors."
+  - '* Max HP is 203<p:short>
+
+    * Attack is 7<p:short>
+
+    * Defense is 0'
+  - "* His support of Cash Wheelium is unyielding,\n  and he cannot be swayed."

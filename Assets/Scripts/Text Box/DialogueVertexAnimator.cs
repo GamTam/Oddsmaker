@@ -1,54 +1,32 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
 
 public class DialogueVertexAnimator {
-
     public bool textAnimating = false;
     private bool stopAnimating = false;
 
-    private TMP_Text textBox;
-    private float textAnimationScale;
-    
-    private SoundManager _soundManager;
-    private MusicManager _musicManager;
+    private readonly TMP_Text textBox;
+    private readonly float textAnimationScale;
 
-    private Shake _camera;
-
-    public DialogueManager _parent;
-    private Flash _flash;
-    public int visableCharacterIndex;
-    public int actualCharacterIndex;
-    public int charCount;
-    private Color32[][] originalColors;
-    private string _processedMessage;
+    //public DialogueManager _parent;
     
     float secondsPerCharacter = 2f / 60f;
     private List<DialogueCommand> _commands;
     public DialogueVertexAnimator(TMP_Text _textBox) {
-        if (_textBox != null)
-        {
-            textBox = _textBox;
-            textAnimationScale = textBox.fontSize;
-        }
-        
-        _soundManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<SoundManager>();
-        _musicManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<MusicManager>();
-        _camera = GameObject.FindWithTag("MainCamera").GetComponent<Shake>();
-        _flash = GameObject.FindObjectOfType<Flash>();
+        textBox = _textBox;
+        textAnimationScale = textBox.fontSize;
     }
 
     private static readonly Color32 clear = new Color32(0, 0, 0, 0);
     private const float CHAR_ANIM_TIME = 0.07f;
     private static readonly Vector3 vecZero = Vector3.zero;
-    
-    public IEnumerator AnimateTextIn(List<DialogueCommand> commands, string processedMessage, string voice_sound, Action onFinish, int startingIndex=0, Vector2? pitchRange=null, float blipFrequency=4f/60f) {
+    public IEnumerator AnimateTextIn(List<DialogueCommand> commands, string processedMessage, string voice_sound, Action onFinish, int startingIndex=0) {
         textAnimating = true;
         _commands = commands;
-        float timeOfLastCharacter = Time.unscaledTime - secondsPerCharacter;
+        float timeOfLastCharacter = 0;
 
         TextAnimInfo[] textAnimInfo = SeparateOutTextAnimInfo(commands);
         TMP_TextInfo textInfo = textBox.textInfo;
@@ -62,51 +40,22 @@ public class DialogueVertexAnimator {
             }
         }
 
-        
-        processedMessage += " ";
         textBox.text = processedMessage;
-        _processedMessage = processedMessage;
-        processedMessage = Globals.RemoveRichText(processedMessage);
-        textBox.enableAutoSizing = false;
-        textBox.ForceMeshUpdate();
-
-        while (textBox.textInfo.lineCount > _parent._tempBox.MaxLines)
-        {
-            int lineBreakCount = textBox.text.Length - textBox.text.Replace("\n", string.Empty).Length;
-            
-            if (lineBreakCount <= 0) break;
-
-            if (textBox.alignment is TextAlignmentOptions.Center or TextAlignmentOptions.Top) _processedMessage = Globals.ReplaceLastOccurrence(_processedMessage, "\n", " ");
-            else _processedMessage = Globals.ReplaceFirstOccurrence(_processedMessage, "\n", " ");
-            
-            textBox.text = _processedMessage;
-            processedMessage = Globals.RemoveRichText(processedMessage);
-            textBox.ForceMeshUpdate();
-        }
-        
-        textBox.enableAutoSizing = true;
         textBox.ForceMeshUpdate();
 
         TMP_MeshInfo[] cachedMeshInfo = textInfo.CopyMeshInfoVertexData();
-        UpdateColors(textInfo);
-        charCount = textInfo.characterCount;
+        Color32[][] originalColors = new Color32[textInfo.meshInfo.Length][];
+        for (int i = 0; i < originalColors.Length; i++) {
+            Color32[] theColors = textInfo.meshInfo[i].colors32;
+            originalColors[i] = new Color32[theColors.Length];
+            Array.Copy(theColors, originalColors[i], theColors.Length);
+        }
+        int charCount = textInfo.characterCount;
         float[] charAnimStartTimes = new float[charCount];
         for (int i = 0; i < charCount; i++) {
             charAnimStartTimes[i] = -1; //indicate the character as not yet started animating.
         }
-        visableCharacterIndex = startingIndex;
-        actualCharacterIndex = visableCharacterIndex;
-
-        textBox.text = _processedMessage.Substring(0, visableCharacterIndex);
-        SetColorUntilIndex(visableCharacterIndex);
-        textBox.text = _processedMessage.Substring(0, actualCharacterIndex);
-        textBox.ForceMeshUpdate();
-        yield return null;
-        textBox.text = _processedMessage;
-        textBox.ForceMeshUpdate();
-        textInfo = textBox.textInfo;
-        UpdateColors(textInfo);
-
+        int visableCharacterIndex = startingIndex;
         while (true) {
             if (stopAnimating) {
                 for (int i = visableCharacterIndex; i < charCount; i++) {
@@ -121,7 +70,7 @@ public class DialogueVertexAnimator {
                     _commands = commands;
                     if (visableCharacterIndex < charCount && ShouldShowNextCharacter(secondsPerCharacter, timeOfLastCharacter)) {
                         charAnimStartTimes[visableCharacterIndex] = Time.unscaledTime;
-                        PlayDialogueSound(voice_sound, (Vector2) pitchRange, blipFrequency, !Char.IsWhiteSpace(processedMessage[visableCharacterIndex]));
+                        PlayDialogueSound(voice_sound);
                         visableCharacterIndex++;
                         timeOfLastCharacter = Time.unscaledTime;
                         if (visableCharacterIndex == charCount) {
@@ -160,26 +109,21 @@ public class DialogueVertexAnimator {
                     destinationVertices[vertexIndex + 3] = ((sourceVertices[vertexIndex + 3] - offset) * charSize) + offset + animPosAdjustment;
                 }
             }
-            try { 
-                textBox.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32); 
-                for (int i = 0; i < textInfo.meshInfo.Length; i++) {
+
+            try
+            {
+                textBox.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
+                for (int i = 0; i < textInfo.meshInfo.Length; i++)
+                {
                     TMP_MeshInfo theInfo = textInfo.meshInfo[i];
                     theInfo.mesh.vertices = theInfo.vertices;
                     textBox.UpdateGeometry(theInfo.mesh, i);
                 }
-            } catch {}
+            }
+            catch
+            {}
             
             yield return null;
-        }
-    }
-
-    private void UpdateColors(TMP_TextInfo textInfo)
-    {
-        originalColors = new Color32[textInfo.meshInfo.Length][];
-        for (int i = 0; i < originalColors.Length; i++) {
-            Color32[] theColors = textInfo.meshInfo[i].colors32;
-            originalColors[i] = new Color32[theColors.Length];
-            Array.Copy(theColors, originalColors[i], theColors.Length);
         }
     }
 
@@ -192,81 +136,41 @@ public class DialogueVertexAnimator {
                         timeOfLastCharacter = Time.unscaledTime + command.floatValue;
                         break;
                     case DialogueCommandType.TextSpeedChange:
-                        secondsPerCharacter = command.floatValue / 1000f;
+                        secondsPerCharacter = command.floatValue / 60f;
                         break;
                     case DialogueCommandType.Sound:
-                        _soundManager.Play(command.stringValue);
+                        Globals.SoundManager.Play(command.stringValue);
                         break;
                     case DialogueCommandType.Music:
                         switch (command.stringValue)
                         {
                             case "fadeout":
-                                _musicManager.FadeOut(1f);
+                                Globals.MusicManager.fadeOut(1.5f);
                                 break;
                             case "stop":
-                                _musicManager.FadeOut();
+                                Globals.MusicManager.fadeOut();
                                 break;
                             case "continue":
-                                _musicManager.FadeIn();
-                                break;
-                            case "fadein":
-                                _musicManager.FadeIn(1f);
+                                Globals.MusicManager.fadeIn();
                                 break;
                             default:
-                                _musicManager.Play(command.stringValue);
+                                Globals.MusicManager.Play(command.stringValue);
                                 break;
                         }
                         break;
                     case DialogueCommandType.Lowpass:
-                        _musicManager.SetLowpass(0.1f, command.floatValue);
+                        Globals.MusicManager.SetLowpass(0.1f, command.floatValue);
                         break;
                     case DialogueCommandType.Shake:
-                        _camera.maxShakeDuration = command.floatValue;
-                        _camera.multiplier = command.floatValueTwo;
-                        _camera.enabled = true;
+                        Shake[] objects = (Shake[]) GameObject.FindObjectsOfType(typeof(Shake));
+                        foreach (Shake obj in objects)
+                        {
+                            obj.maxShakeDuration = command.floatValue;
+                            obj.enabled = true;
+                        }
                         break;
                     case DialogueCommandType.Flash:
-                        _flash.StartFlash();
-                        break;
-                    case DialogueCommandType.Color:
-                        string color = "</color>";
-                        switch (command.stringValue)
-                        {
-                            case "white":
-                            case "default":
-                                color = "<color=#ffffff>";
-                                break;
-                            case "red":
-                                color = "<color=#ff0000>";
-                                break;
-                            case "green":
-                                color = "<color=#00f000>";
-                                break;
-                            case "blue":
-                                color = "<color=#68c0f0>";
-                                break;
-                        }
-
-                        actualCharacterIndex = 0;
-                        for (int j = 0; j < visableCharacterIndex; j++)
-                        {
-                            if (_processedMessage[actualCharacterIndex] == '<')
-                            {
-                                while (_processedMessage[actualCharacterIndex] != '>')
-                                {
-                                    actualCharacterIndex += 1;
-                                }
-
-                                actualCharacterIndex += 1;
-                            }
-                            actualCharacterIndex += 1;
-                        }
-
-                        _processedMessage = _processedMessage.Substring(0, actualCharacterIndex) + color +
-                                            _processedMessage.Substring(actualCharacterIndex);
-                        textBox.text = _processedMessage;
-                        textBox.ForceMeshUpdate();
-                        UpdateColors(textBox.textInfo);
+                        //_parent._tempBox.GetComponent<Animator>().Play("Flash");
                         break;
                 }
                 commands.RemoveAt(i);
@@ -307,17 +211,12 @@ public class DialogueVertexAnimator {
     private static bool ShouldShowNextCharacter(float secondsPerCharacter, float timeOfLastCharacter) {
         return (Time.unscaledTime - timeOfLastCharacter) > secondsPerCharacter;
     }
-    
-    public void QuickEnd(bool loopThroughEvents=true) {
+    public void QuickEnd() {
         if (textAnimating) {
             stopAnimating = true;
-            textAnimating = false;
             float f = 1000f;
-            
             foreach (DialogueCommand command in _commands)
             {
-                if (command.position < visableCharacterIndex) continue;
-                if (!loopThroughEvents && command.type != DialogueCommandType.Color && command.type != DialogueCommandType.Music && command.type != DialogueCommandType.TextSpeedChange) continue;
                 if (command.type != DialogueCommandType.Pause)
                 {
                     ExecuteCommandsForCurrentIndex(new List<DialogueCommand>() {command}, command.position, ref secondsPerCharacter, ref f);
@@ -326,33 +225,13 @@ public class DialogueVertexAnimator {
         }
     }
 
-    private void SetColorUntilIndex(int index)
-    {
-        float f = 1000f;
-            
-        foreach (DialogueCommand command in _commands)
-        {
-            if (command.position >= index) continue;
-            if (command.type != DialogueCommandType.Color) continue;
-            ExecuteCommandsForCurrentIndex(new List<DialogueCommand>() {command}, command.position, ref secondsPerCharacter, ref f);
-        }
-    }
-
     private float timeUntilNextDialogueSound = 0;
     private float lastDialogueSound = 0;
-    private void PlayDialogueSound(String voice_sound, Vector2 pitchRange, float blipFrequency, bool canPlay) {
+    private void PlayDialogueSound(String voice_sound) {
         if (Time.unscaledTime - lastDialogueSound > timeUntilNextDialogueSound) {
-            if (!(_parent.SkipTextButtonHeld && visableCharacterIndex == 0) && canPlay)
-            {
-                timeUntilNextDialogueSound = blipFrequency;
-                lastDialogueSound = Time.unscaledTime;
-                
-                System.Random rand = new System.Random();
-
-                float pitch = rand.Next((int) pitchRange.x, (int) pitchRange.y) / 100f;
-                pitch += 1;
-                _soundManager.Play(voice_sound, pitch);
-            }
+            timeUntilNextDialogueSound = 4/60f;
+            lastDialogueSound = Time.unscaledTime;
+            Globals.SoundManager.Play(voice_sound);
         }
     }
 

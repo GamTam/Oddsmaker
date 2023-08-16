@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: DesertMiniboss
+  m_EditorClassIdentifier: 
+  Name: Sand-Surfing Slimeamonster
+  Level: 5
+  HP: 420
+  Pow: 8
+  Def: 0
+  Speed: 16
+  EXP: 30
+  Description:
+  - "* The Sand-Surfing Slimeamonster is a subspecies\n  of Dune-Dwelling Slimeamander."
+  - "* Slimeamonsters tend to have longer tongues,<p:short>\n  although usually aren't
+    as agressive."
+  - '* Max HP is 420<p:short>
+
+    * Attack is 8<p:short>
+
+    * Defense is 0'
+  - "* This one in particular must be very angry\n  for some reason."

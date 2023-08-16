@@ -1,11 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 using UnityEngine.Audio;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
 public class MusicManager : MonoBehaviour
 {
@@ -17,79 +14,38 @@ public class MusicManager : MonoBehaviour
     [HideInInspector] public Music musicPlaying = null;
 
     public static float currentPoint = 0;
-    public bool DoneLoading;
 
-    private string prevSongName = "";
-
-    void Start()
+    void Awake()
     {
-        DoneLoading = false;
         DontDestroyOnLoad(gameObject);
         if (Globals.MusicManager != null)
         {
-            DoneLoading = true;
             Destroy(gameObject);
             return;
         }
-
         Globals.MusicManager = this;
-    }
-    
-    public IEnumerator LoadSongs() {
-        Dictionary<string, ArrayList> musicDict = new Dictionary<string, ArrayList>();
-        AsyncOperationHandle<TextAsset> tsvHandler = Addressables.LoadAssetAsync<TextAsset>("Assets/Audio/Music Data.tsv");
-        yield return tsvHandler;
 
-        if (tsvHandler.Status == AsyncOperationStatus.Failed)
-        {
-            DoneLoading = true;
-            yield break;
-        }
-        
-        musicDict = Globals.LoadTSV(tsvHandler.Result);
+        Dictionary<string, ArrayList> musicDict = new Dictionary<string, ArrayList>();
+        musicDict = Globals.LoadTSV("Music Data");
 
         foreach(KeyValuePair<string, ArrayList> entry in musicDict) {
-            if (entry.Key == "" || entry.Key[0] == '#' || (string) entry.Value[1] == "Intro Point") continue;
+            if (entry.Key == "" || entry.Key[0] == '#') continue;
             Music music = new Music();
                 
-            music.fileName = entry.Key;
-            music.songName = Convert.ToString(entry.Value[0]);
-            
-            try
-            {
-                music.loopStart = Convert.ToSingle(entry.Value[1]);
-                music.loopEnd = Convert.ToSingle(entry.Value[2]);
-            }
-            catch
-            {
-                music.redirect = Convert.ToString(entry.Value[3]);
-            }
+            music.name = entry.Key;
+            music.loopStart = Convert.ToSingle(entry.Value[0]);
+            music.loopEnd = Convert.ToSingle(entry.Value[1]);
 
-            if (music.redirect == null)
-            {
-                String path = "Assets/Music/" + music.fileName + ".wav";
+            String path = "Music/" + music.name;
 
-                AsyncOperationHandle<AudioClip> clipHandler = Addressables.LoadAssetAsync<AudioClip>(path);
-                yield return clipHandler;
+            music.source = gameObject.AddComponent<AudioSource>();
+            music.source.clip = Resources.Load(path) as AudioClip;
+            music.source.pitch = music.pitch;
+            music.source.loop = true;
+            music.source.outputAudioMixerGroup = group;
 
-                if (clipHandler.Status == AsyncOperationStatus.Succeeded)
-                {
-                    music.source = gameObject.AddComponent<AudioSource>();
-                    music.source.clip = clipHandler.Result;
-                    music.source.pitch = music.pitch;
-                    music.source.loop = true;
-                    music.source.outputAudioMixerGroup = group;
-                }
-                else
-                {
-                    Debug.LogError("Failed to load song: " + music.fileName);
-                }
-            }
-            
             allMusic.Add(music);
         }
-
-        DoneLoading = true;
     }
 
     public void setPoint()
@@ -102,50 +58,16 @@ public class MusicManager : MonoBehaviour
         musicPlaying.source.time = currentPoint;
     }
     
-    public void Stop(Music song=null)
+    public void Stop()
     {
-        if (song == null) song = musicPlaying;
-        
-        try { song?.source.Stop(); }
-        catch {}
-
-        if (song == musicPlaying)
-        {
-            musicPlaying = null;
-            Globals.SongPlaying = "";
-        }
+        musicPlaying?.source.Stop();
     }
 
-    public Music PlayRandom()
+    public Music Play (string name, float point=0, bool dontStopPreviousSong=false)
     {
-        System.Random rand = new System.Random();
+        Music s = allMusic.Find(x => x.name == name);
+        if (s == null) return null;
 
-        string s = allMusic.ElementAt(rand.Next(0, allMusic.Count)).fileName;
-
-        return Play(s);
-    }
-
-    public Music Play(string name, bool followSoundtrack=true)
-    {
-        Music s = null;
-        if (followSoundtrack)
-        {
-            Globals.SongPlaying = name;
-            s = allMusic.Find(x => x.fileName == name + $"_{Globals.Soundtrack.ToString()}");
-        }
-        
-        if (s == null)
-        {
-            s = allMusic.Find(x => x.fileName == name);
-            if (s == null) return null;
-        }
-
-        if (!string.IsNullOrEmpty(s.redirect)) return Play(s.redirect, false);
-        return Play(s);
-    }
-    
-    public Music Play (Music s)
-    {
         if (musicPlaying == s && Math.Abs(musicPlaying.source.volume - 1) < 0.1 && musicPlaying.source.isPlaying)
         {
             return musicPlaying;
@@ -153,40 +75,42 @@ public class MusicManager : MonoBehaviour
 
         try
         {
-            if (musicPlaying.source.isPlaying)
+            if (musicPlaying.source.isPlaying && !dontStopPreviousSong)
             {
-                FadeOut();
+                fadeOut();
             }
         } catch {}
-        
-        if (prevSongName != s.fileName) currentPoint = 0f;
-        
+
         musicPlaying = s;
 
         s.source.volume = 1;
-        s.source.time = 0;
+        s.source.time = point;
         s.source.Play();
-
-        prevSongName = s.fileName;
 
         return s;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        if (musicPlaying == null) return;
-        if (musicPlaying.source == null) return;
-        
-        if (musicPlaying.fileName != "")
+        if (musicPlaying.name != "")
         {
-            if (musicPlaying.source.time > musicPlaying.loopEnd && musicPlaying.loopEnd > 0)
+            if (musicPlaying.source.time > musicPlaying.loopEnd && musicPlaying.loopEnd != -1)
             {
                 musicPlaying.source.time -= (musicPlaying.loopEnd - musicPlaying.loopStart);
             }
         }
     }
 
-    public void FadeOut(float length=0.1f)
+    public void FadeVariation(string song, float duration = 1f)
+    {
+        Music music = musicPlaying;
+        StartCoroutine(fadeTo(duration, 0, music));
+        Play(song, musicPlaying.source.time, true);
+        musicPlaying.source.volume = 0;
+        StartCoroutine(fadeTo(duration, 1, musicPlaying));
+    }
+
+    public void fadeOut(float length=0.1f)
     {
         try
         {
@@ -197,18 +121,20 @@ public class MusicManager : MonoBehaviour
             return;
         }
 
-        StartCoroutine(FadeTo(length, 0, musicPlaying));
+        StartCoroutine(fadeTo(length, 0, musicPlaying));
     }
     
-    public void FadeIn(float length=0.1f)
+    public void fadeIn(string song = "", float setPoint = 0, float duration = 0.1f)
     {
-        musicPlaying.source.volume = 0f;
-        musicPlaying.source.Play();
-        goToPoint();
-        StartCoroutine(FadeTo(length, 1, musicPlaying));
+        if (string.IsNullOrEmpty(song)) goToPoint();
+        else Play(song, setPoint);
+
+        musicPlaying.source.volume = 0;
+        
+        StartCoroutine(fadeTo(duration, 1, musicPlaying));
     }
     
-    public IEnumerator FadeTo(float duration, float targetVolume, Music audioSource=null)
+    public IEnumerator fadeTo(float duration, float targetVolume, Music audioSource=null)
     {
         if (audioSource == null)
         {
@@ -229,7 +155,7 @@ public class MusicManager : MonoBehaviour
 
         if (audioSource.source.volume <= 0.1)
         {
-            Stop(audioSource);
+            audioSource.source.Stop();
         }
     }
 

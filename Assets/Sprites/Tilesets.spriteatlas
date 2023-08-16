@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tilesets
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -478576779, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 867351143, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 1533371307, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -1558231678, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -1816469100, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 150816739, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 2079462556, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 286704331, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 1428912542, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -921018673, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 2066946429, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -2247175, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 1590101821, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -1238900474, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -890473380, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 1213491304, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -747737802, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -1853232137, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 159102572, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: 984558711, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -1391454796, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  - {fileID: -1149926787, guid: b37d66cae513edf4db0c6eb1f7a65797, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Main _18
+  - Main _19
+  - Main _14
+  - Main _15
+  - Main _16
+  - Main _17
+  - Main _10
+  - Main _11
+  - Main _12
+  - Main _13
+  - Main _5
+  - Main _4
+  - Main _7
+  - Main _6
+  - Main _1
+  - Main _0
+  - Main _3
+  - Main _2
+  - Main _9
+  - Main _8
+  - Main _21
+  - Main _20
+  m_RenderDataMap: {}
+  m_Tag: Tilesets
+  m_IsVariant: 0

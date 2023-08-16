@@ -6,26 +6,20 @@ TagManager:
   tags:
   - Audio
   - Controller Manager
+  - Battle Manager
   - NPC
   - UI
-  - Examinable
-  - Dialogue Manager
-  - BackgroundCam
-  - CharacterPlane
-  - Select
-  - Investigation
-  - Button
-  - Controls
-  - Transition
-  - Background
+  - AudioDavid
+  - CasinoManager
+  - ChangeScenes
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Projection Mask
+  - Post Processing
   - Water
   - UI
-  - Foreground
+  - Overworld
   - 
   - 
   - 
@@ -55,6 +49,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI
-    uniqueID: 729677327
+  - name: Particle
+    uniqueID: 1555941025
     locked: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: TutorialGuy
+  m_EditorClassIdentifier: 
+  Name: Craig
+  Level: 999
+  HP: 50
+  Pow: 1
+  Def: 0
+  Speed: 1
+  EXP: 0
+  Description:
+  - '* His name is Craig.'
+  - '* He''s very cool.'
+  - '* Max HP is 50<p:short>
+
+    * Attack is 1<p:short>
+
+    * Defense is 0'
+  - '* Everyone should strive to be more like Craig.'

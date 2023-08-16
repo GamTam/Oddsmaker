@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: Frog
+  m_EditorClassIdentifier: 
+  Name: Robo-Frog
+  Level: 4
+  HP: 96
+  Pow: 7
+  Def: 3
+  Speed: 13
+  EXP: 9
+  Description:
+  - "* The Robo-Frog was created in an attempt\n  to bring current life closer to\n 
+    pre-apocalyptic times."
+  - "* The last frogs on Earth had been disected\n  and repurposed for the use of
+    being\n  turned in to mass-producable robotic replicas."
+  - '* Max HP is 96<p:short>
+
+    * Attack is 6<p:short>
+
+    * Defense is 3'
+  - '* It''s almost as good as the real thing.<p:short>
+
+    * Right?'

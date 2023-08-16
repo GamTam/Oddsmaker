@@ -2,92 +2,78 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
+using System.Net.Security;
 using System.Security.Cryptography;
 using System.Text;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using Random = System.Random;
 
 public static class Globals
 {
-    public static List<EvidenceSO> Evidence = new List<EvidenceSO>();
-    public static List<EvidenceSO> Profiles = new List<EvidenceSO>();
-    public static List<DialogueSO> UsedDialogue = new List<DialogueSO>();
-    public static List<TalkSO> UsedTalks = new List<TalkSO>();
-    public static List<MoveSO> KnownLocations = new List<MoveSO>();
-    public static List<String> StoryFlags = new List<string>();
-
-    public static int HP = 10;
-
-    public static SoundtrackTypes Soundtrack = SoundtrackTypes.PWAA;
-    public static UITypes UI = UITypes.PWAAT;
-    public static DialogueManager DialogueManager;
     public static MusicManager MusicManager;
     public static SoundManager SoundManager;
-    public static string SongPlaying;
 
-    public static ControlFlagController ControlFlag;
+    public static PlayerController Player;
+    public static Vector3 PlayerPos = new Vector3();
+    public static PlayerInput Input;
+    public static EventSystem EventSystem;
 
-    public static DialogueSO NoCluesHere;
-    
-    public static TextBoxTransparency TextboxTransparency = TextBoxTransparency.None;
-    public static bool ScreenShake = true;
-    
+    public static bool InBattle;
+
     public static int SaveFile = 0;
-    public static double PlayTime = 0;
-    public static List<AuthorGamePair> UnlockedCases = new List<AuthorGamePair>();
+    public static List<sItem> Items = new List<sItem>();
+    public static PlayerStats[] PlayerStatsList = new PlayerStats[4];
 
-    public static int MusicVolume = 2;
-    public static int SoundVolume = 2;
-    
-    public static string GameName;
-    public static string GameAuthor;
-    public static string CaseName;
-    public static int CaseNum;
-    public static string PhaseName;
-    public static Color GameColor;
+    public static double PlayTime;
+    public static PlayerDir PlayerDir = PlayerDir._d;
 
-    public static bool FullScreen;
-    public static int ScreenWidth = 1280;
-    public static int ScreenHeight = 720;
+    public static List<string> PlayedCutscenes = new List<string>();
+    public static List<string> OpenedChests = new List<string>();
 
-    public static bool InOptions;
+    public static bool BeginSceneLoad;
+    public static GameState GameState = GameState.Play;
 
-    public static readonly string SaveDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/Ace Attorney Maker";
+    public static bool WarpFlag;
 
-    public static Dictionary<string, ArrayList> LoadTSV(TextAsset file) {
+    public static Dictionary<string, ArrayList> LoadTSV(string file) {
         
         Dictionary<string, ArrayList> dictionary = new Dictionary<string, ArrayList>();
         ArrayList list = new ArrayList();
-        
-        var content = file.text;
-        var lines = content.Split(System.Environment.NewLine);
 
-        for (int i=0; i < lines.Length; i++)
-        {
-            list = new ArrayList();
-            var line = lines[i];
-            if (string.IsNullOrEmpty(line)) continue;
-            string[] values = line.Split('	');
-            for (int j=1; j < values.Length; j++) {
-                list.Add(values[j]);
+        using (var reader = new StreamReader(Application.dataPath + "/files/" + file + ".tsv")) {
+            while (!reader.EndOfStream)
+            {
+                list = new ArrayList();
+                var line = reader.ReadLine();
+                if (line == null) continue;
+                string[] values = line.Split('	');
+                for (int i=1; i < values.Length; i++) {
+                    list.Add(values[i]);
+                }
+                if (values[0] != "") dictionary.Add(values[0], list);
             }
-
-            values[0] = new string(values[0].Where(c => !char.IsControl(c)).ToArray());
-            if (values[0] != "") dictionary.Add(values[0], list);
         }
 
         return dictionary;
     }
-
-    public static void ResetProgress()
+    
+    public static void ListSwap<T>(IList<T> list, int indexA, int indexB)
     {
-        Evidence = new List<EvidenceSO>();
-        Profiles = new List<EvidenceSO>();
-        UsedDialogue = new List<DialogueSO>();
-        UsedTalks = new List<TalkSO>();
-        KnownLocations = new List<MoveSO>();
-        StoryFlags = new List<string>();
-        HP = 10;
+        (list[indexA], list[indexB]) = (list[indexB], list[indexA]);
+    }
+
+    public static int DamageFormula(int atk, int def, out bool crit, int luck = 500)
+    {
+        int threshold = (int) ((luck / 400f) * 100f);
+        int chance = GetRandomNumber(0, 101);
+
+        crit = chance < threshold;
+        
+        return Mathf.Max(Mathf.RoundToInt((float) ((atk * 4 - def * 2) * GetRandomNumber(0.7f, 1.2f))), 1);
     }
     
     public static bool IsAnimationPlaying(Animator anim, string stateName, int animLayer=0)
@@ -98,43 +84,28 @@ public static class Globals
         
         return false;
     }
+    
+    public static int Mod(int x, int m) {
+        int r = x%m;
+        return r<0 ? r+m : r;
+    }
+    
+    public static String NumberToChar(int num, bool capital) {
+        Char c = (Char)((capital ? 65 : 97) + (num - 1));
 
-    public static bool CheckStoryFlags(string[] flags)
-    {
-        if (flags == null) return true;
-        if (flags.Length == 0) return true; 
-        bool[] bools = new bool[flags.Length];
-        for (int i = 0; i < flags.Length; i++)
-        {
-            bools[i] = false;
-            string flag = flags[i];
-            bool not = false;
-                
-            if (flag[0] == '!')
-            {
-                not = true;
-                flag = flag.Remove(0, 1);
-            }
-
-            if (not)
-            {
-                if (!StoryFlags.Contains(flag))
-                {
-                    bools[i] = true;
-                }  
-            }
-            else if (StoryFlags.Contains(flag))
-            {
-                bools[i] = true;
-            }
-        }
-
-        foreach (bool bowl in bools)
-        {
-            if (!bowl) return false;
-        }
-        
-        return true;
+        return c.ToString();
+    }
+    
+    public static int GetRandomNumber(int minimum, int maximum)
+    { 
+        Random random = new Random();
+        return random.Next(minimum, maximum);
+    }
+    
+    public static double GetRandomNumber(double minimum, double maximum)
+    { 
+        Random random = new Random();
+        return random.NextDouble() * (maximum - minimum) + minimum;
     }
     
     public static string RemoveRichText(string str)
@@ -179,6 +150,7 @@ public static class Globals
         str = RemoveRichTextTag(str, "uppercase");
         
         return str;
+     
     }
     
     private static string RemoveRichTextDynamicTag (string str, string tag)
@@ -187,6 +159,7 @@ public static class Globals
         while (true)
         {
             index = str.IndexOf($"<{tag}=");
+            //Debug.Log($"{{{index}}} - <noparse>{input}");
             if (index != -1)
             {
                 int endIndex = str.Substring(index, str.Length - index).IndexOf('>');
@@ -214,19 +187,91 @@ public static class Globals
         }
     }
     
+    public static void UnloadAllScenesExcept(string sceneName) {
+        int c = SceneManager.sceneCount;
+        for (int i = 0; i < c; i++) {
+            Scene scene = SceneManager.GetSceneAt (i);
+            if (scene.name != sceneName) {
+                SceneManager.UnloadSceneAsync (scene);
+            }
+        }
+    }
+
+    public static IEnumerator LoadScene(string scene, bool additive) {
+        yield return null;
+
+        AsyncOperation asyncOperation;
+        if (additive) asyncOperation = SceneManager.LoadSceneAsync(scene, LoadSceneMode.Additive);
+        else asyncOperation = SceneManager.LoadSceneAsync(scene);
+
+        asyncOperation.completed += (AsyncOperation o) =>
+        {
+            SceneManager.SetActiveScene(SceneManager.GetSceneByName(scene));
+        };
+        asyncOperation.allowSceneActivation = false;
+        while (!asyncOperation.isDone)
+        {
+            if (asyncOperation.progress >= 0.9f)
+            {
+                if (BeginSceneLoad)
+                {
+                    asyncOperation.allowSceneActivation = true;
+                }
+            }
+
+            yield return null;
+        }
+
+        BeginSceneLoad = false;
+    }
+
+    public static int LevelUpLut(int input)
+    {
+        switch (input)
+        {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+                return 1;
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+                return 2;
+            case 15:
+                return 3;
+        }
+
+        return 4;
+    }
+    
     public static string EncryptString(string plainText, string password)
     {
-        string privateKey = "hgfedcba";
-        byte[] privateKeyByte = Encoding.UTF8.GetBytes(privateKey);
-        byte[] keyByte = Encoding.UTF8.GetBytes(password);
-        byte[] inputtextbyteArray = Encoding.UTF8.GetBytes(plainText);
-        using (DESCryptoServiceProvider dsp = new DESCryptoServiceProvider())
+        try
         {
-            var memstr = new MemoryStream();
-            var crystr = new CryptoStream(memstr, dsp.CreateEncryptor(keyByte, privateKeyByte), CryptoStreamMode.Write);
-            crystr.Write(inputtextbyteArray, 0, inputtextbyteArray.Length);
-            crystr.FlushFinalBlock();
-            return Convert.ToBase64String(memstr.ToArray());
+            string privateKey = "hgfedcba";
+            byte[] privateKeyByte = Encoding.UTF8.GetBytes(privateKey);
+            byte[] keyByte = Encoding.UTF8.GetBytes(password);
+            byte[] inputtextbyteArray = Encoding.UTF8.GetBytes(plainText);
+            using (DESCryptoServiceProvider dsp = new DESCryptoServiceProvider())
+            {
+                var memstr = new MemoryStream();
+                var crystr = new CryptoStream(memstr, dsp.CreateEncryptor(keyByte, privateKeyByte), CryptoStreamMode.Write);
+                crystr.Write(inputtextbyteArray, 0, inputtextbyteArray.Length);
+                crystr.FlushFinalBlock();
+                return Convert.ToBase64String(memstr.ToArray());
+            }
+        }
+        catch (Exception ex)
+        {
+            return ex.Message;
         }
     }
     
@@ -252,59 +297,55 @@ public static class Globals
             return ex.Message;
         }
     }
-    
-    public static string ReplaceFirstOccurrence(string source, string find, string replace)
+
+    public static void TurnOffAllWarpFlags()
     {
-        int place = source.IndexOf(find);
-    
-        if (place == -1)
-            return source;
-    
-        return source.Remove(place, find.Length).Insert(place, replace);
+        WarpFlag = false;
     }
-    
-    public static string ReplaceLastOccurrence(string source, string find, string replace)
+
+    public static void TurnOnWarpFlag()
     {
-        int place = source.LastIndexOf(find);
-    
-        if (place == -1)
-            return source;
-    
-        return source.Remove(place, find.Length).Insert(place, replace);
+        WarpFlag = true;
     }
 }
 
-public enum SoundtrackTypes
+[Serializable]
+public struct sItem
 {
-    PWAA,
-    JFA,
-    TT,
-    AJAA,
-    DD,
-    SOJ,
-    AAI,
-    AAI2,
-    PLVPW,
-    GAA,
-    PLVPW_OLD
+    public AttackSO Item;
+    public int Count;
 }
 
-public enum UITypes
+[Serializable]
+public class PlayerStats
 {
-    PWAAT,
-    AJAAT,
-    DS,
-    AJAA_OLD,
-    PLVPW,
-    GAA
+    public string Name;
+    public int Level;
+    public int HP;
+    public int MaxHP;
+    public int MP;
+    public int MaxMP;
+    public int Pow;
+    public int Def;
+    public int Luck;
+    public int Speed;
+    public int EXP;
+    public int MinRequirement;
+    public List<AttackSO> Attacks;
+    
+    public AssetReferenceT<Sprite> PFPRef;
+    public AssetReferenceT<Sprite> DeadPFPRef;
+
+    [Space]
+    public Sprite PFP;
+    public Sprite DeadPFP;
+
+    public int ExpForNextLevel => Mathf.RoundToInt((float) (4 * Math.Pow(Level, 4)) / 5) + MinRequirement;
 }
 
-public enum DialogueSoundTypes
+public enum GameState
 {
-    Default,
-    Male,
-    Female,
-    Typewriter,
-    Custom,
-    None
-};
+    Play,
+    Cutscene,
+    Battle
+}

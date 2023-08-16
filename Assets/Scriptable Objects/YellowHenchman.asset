@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: YellowHenchman
+  m_EditorClassIdentifier: 
+  Name: Yellow Henchman
+  Level: 7
+  HP: 185
+  Pow: 9
+  Def: 3
+  Speed: 16
+  EXP: 17
+  Description:
+  - "* The heaviest of hitters,<p:tiny> the yellow henchmen usually\n  closely guard
+    Cash Wheelium."
+  - '* Max HP is 185<p:short>
+
+    * Attack is 9<p:short>
+
+    * Defense is 3'
+  - "* Attempts to change his view only\n  make him angrier at you."

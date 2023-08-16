@@ -21,9 +21,6 @@ public class DialogueUtility : MonoBehaviour
     private const string SHAKE_REGEX_STRING = "<shake:(?<shake>" + REMAINDER_REGEX + ")>";
     private static readonly Regex shakeRegex = new Regex(SHAKE_REGEX_STRING);
     
-    private const string SHAKE_DEFAULT_REGEX_STRING = "<shake>";
-    private static readonly Regex shakeDefaultRegex = new Regex(SHAKE_DEFAULT_REGEX_STRING);
-    
     private const string ANIM_START_REGEX_STRING = "<anim:(?<anim>" + REMAINDER_REGEX + ")>";
     private static readonly Regex animStartRegex = new Regex(ANIM_START_REGEX_STRING);
     
@@ -53,9 +50,6 @@ public class DialogueUtility : MonoBehaviour
     
     private const string SPEAK_DIR_REGEX_STRING = "<facing:(?<dir>" + REMAINDER_REGEX + ")>";
     private static readonly Regex speakDirRegex = new Regex(SPEAK_DIR_REGEX_STRING);
-    
-    private const string COLOR_REGEX_STRING = "<color:(?<color>" + REMAINDER_REGEX + ")>";
-    private static readonly Regex colorRegex = new Regex(COLOR_REGEX_STRING);
     
     private const string SKIPFADE_DIR_REGEX_STRING = "<skipfade>";
     private static readonly Regex skipFadeRegex = new Regex(SKIPFADE_DIR_REGEX_STRING);
@@ -96,9 +90,7 @@ public class DialogueUtility : MonoBehaviour
         processedMessage = HandleFacingTags(processedMessage, result);
         
         processedMessage = HandleTextBlipTags(processedMessage, result);
-        processedMessage = HandleColorTags(processedMessage, result);
         processedMessage = HandleShakeTags(processedMessage, result);
-        processedMessage = HandleDefaultShakeTags(processedMessage, result);
         processedMessage = HandleSoundTags(processedMessage, result);
         processedMessage = HandleMusicTags(processedMessage, result);
         processedMessage = HandleLowpassTags(processedMessage, result);
@@ -196,23 +188,6 @@ public class DialogueUtility : MonoBehaviour
         return processedMessage;
     }
     
-    private static string HandleColorTags(string processedMessage, List<DialogueCommand> result)
-    {
-        MatchCollection nameMatches = colorRegex.Matches(processedMessage);
-        foreach (Match match in nameMatches)
-        {
-            string stringVal = match.Groups["color"].Value;
-            result.Add(new DialogueCommand
-            {
-                position = VisibleCharactersUpToIndex(processedMessage, match.Index),
-                type = DialogueCommandType.Color,
-                stringValue = stringVal
-            });
-        }
-        processedMessage = Regex.Replace(processedMessage, COLOR_REGEX_STRING, "");
-        return processedMessage;
-    }
-    
     private static string HandleMusicTags(string processedMessage, List<DialogueCommand> result)
     {
         MatchCollection nameMatches = musicRegex.Matches(processedMessage);
@@ -235,47 +210,19 @@ public class DialogueUtility : MonoBehaviour
         MatchCollection speedMatches = shakeRegex.Matches(processedMessage);
         foreach (Match match in speedMatches)
         {
-            string[] stringVal = match.Groups["shake"].Value.Split(":");
-            
-            if (!float.TryParse(stringVal[0], out float val))
+            string stringVal = match.Groups["shake"].Value;
+            if (!float.TryParse(stringVal, out float val))
             {
                 val = 0.25f;
             }
-
-            float val2 = 1f;
-            if (stringVal.Length >= 2)
-            {
-                if (!float.TryParse(stringVal[1], out val2))
-                {
-                    val2 = 1f;
-                }
-            }
             result.Add(new DialogueCommand
             {
                 position = VisibleCharactersUpToIndex(processedMessage, match.Index),
                 type = DialogueCommandType.Shake,
-                floatValue = val,
-                floatValueTwo = val2
+                floatValue = val
             });
         }
         processedMessage = Regex.Replace(processedMessage, SHAKE_REGEX_STRING, "");
-        return processedMessage;
-    }
-    
-    private static string HandleDefaultShakeTags(string processedMessage, List<DialogueCommand> result)
-    {
-        MatchCollection speedMatches = shakeDefaultRegex.Matches(processedMessage);
-        foreach (Match match in speedMatches)
-        {
-            result.Add(new DialogueCommand
-            {
-                position = VisibleCharactersUpToIndex(processedMessage, match.Index),
-                type = DialogueCommandType.Shake,
-                floatValue = 0.25f,
-                floatValueTwo = 1f
-            });
-        }
-        processedMessage = Regex.Replace(processedMessage, SHAKE_DEFAULT_REGEX_STRING, "");
         return processedMessage;
     }
 
@@ -368,7 +315,7 @@ public class DialogueUtility : MonoBehaviour
             string stringVal = match.Groups["speed"].Value;
             if (!float.TryParse(stringVal, out float val))
             {
-                val = 33f;
+                val = 150f;
             }
             result.Add(new DialogueCommand
             {
@@ -388,38 +335,13 @@ public class DialogueUtility : MonoBehaviour
         {
             string val = match.Groups["pause"].Value;
             string pauseName = val;
-            
-            try
+            Debug.Assert(pauseDictionary.ContainsKey(pauseName), "no pause registered for '" + pauseName + "'");
+            result.Add(new DialogueCommand
             {
-                float pauseLength = float.Parse(pauseName);
-                result.Add(new DialogueCommand
-                {
-                    position = VisibleCharactersUpToIndex(processedMessage, match.Index),
-                    type = DialogueCommandType.Pause,
-                    floatValue = pauseLength
-                });
-            }
-            catch
-            {
-                Debug.Assert(pauseDictionary.ContainsKey(pauseName), "no pause registered for '" + pauseName + "'");
-
-                float pauseLength = 0;
-
-                if (pauseDictionary.ContainsKey(pauseName))
-                {
-                    pauseLength = pauseDictionary[pauseName];
-                }
-                
-                result.Add(new DialogueCommand
-                {
-                    position = VisibleCharactersUpToIndex(processedMessage, match.Index),
-                    type = DialogueCommandType.Pause,
-                    floatValue = pauseLength
-                });
-            }
-               
-            
-            
+                position = VisibleCharactersUpToIndex(processedMessage, match.Index),
+                type = DialogueCommandType.Pause,
+                floatValue = pauseDictionary[pauseName]
+            });
         }
         processedMessage = Regex.Replace(processedMessage, PAUSE_REGEX_STRING, "");
         return processedMessage;
@@ -544,8 +466,7 @@ public enum DialogueCommandType
     Shake,
     Emotion,
     SkipFade,
-    Flash,
-    Color
+    Flash
 }
 
 public enum TextAlignOptions

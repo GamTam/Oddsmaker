@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecc6b6d453e451c4da2e0283192f5449, type: 3}
+  m_Name: BlueHenchman
+  m_EditorClassIdentifier: 
+  Name: Blue Henchman
+  Level: 7
+  HP: 234
+  Pow: 8
+  Def: 1
+  Speed: 18
+  EXP: 21
+  Description:
+  - "* The Blue Henchmen are usually the bookeepers\n  of all other henchmen."
+  - "* This one,<p:short> however,<p:short> decided to\n  try to stop you."
+  - '* Max HP is 234<p:short>
+
+    * Attack is 8<p:short>
+
+    * Defense is 1'
+  - '* He will stop at nothing to defeat you.'

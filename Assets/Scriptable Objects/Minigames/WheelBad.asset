@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7978494d14b2b934aae123a477bdf582, type: 3}
+  m_Name: WheelBad
+  m_EditorClassIdentifier: 
+  lines:
+  - dialogueText: '* LOSER!!!!!!^
+
+      * -3 XP'
+    hit: 0
+    shaking: 0
+    changeMusicBefore: 0
+    changeMusicAfter: 0
+    mute: 0
+    musicIndex: 0
+    textSpeed: 0.05
+    pauseDuration: 0.5
+    timeBeforeText: 0
+    waitTimeToAdvance: 10
+    soundEffect: {fileID: 0}
+    textColor: {r: 1, g: 1, b: 1, a: 1}

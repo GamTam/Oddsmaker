@@ -15,48 +15,43 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: 822d4b76f8403fc4aa453a50244fb5fe
+  m_GUID: 1d4e9da595ab1904dbc27e2de68f00de
   m_SerializeEntries:
-  - m_GUID: a83a164e960b4414a8c5b24dfa38e39b
-    m_Address: Assets/Sprites/Backgrounds
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Background
-  - m_GUID: 57eb9e72d5b6d924fb8ce5d28a07d980
-    m_Address: Assets/Sprites/Backgrounds
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Background
-  - m_GUID: 13da7ff5b218049468b34ccb03294d21
-    m_Address: Assets/Sprites/Backgrounds
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Background
-  - m_GUID: 179fd07b3ed930b439936efaf47a9fe7
-    m_Address: Assets/Sprites/Backgrounds/Previews
+  - m_GUID: 54f23dc7ce884f9479057666760eb12d
+    m_Address: Assets/Sprites/Player Icons/Agent 3.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 0c484b64f8e102b4da8bfbfb1868acb2
-    m_Address: Assets/Sprites/Backgrounds
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Background
-  - m_GUID: ad6222c5794d9de41a7655caa342f92f
-    m_Address: Assets/Sprites/Backgrounds
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Background
-  - m_GUID: dd04f9298e3d9a94dbfa8079a032f1d1
-    m_Address: Assets/Sprites/Backgrounds/title_back.png
+  - m_GUID: 5fc02d848c884f54d88a593aff8e897c
+    m_Address: Assets/Sprites/Player Icons/Agent 3 - Dead.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 354ad609ef9e50b4c8aae6972eadb7c4
-    m_Address: Assets/Sprites/Foregrounds
+  - m_GUID: 75c8946dae36cdb408087a9b6d493612
+    m_Address: Assets/Sprites/Player Icons/Owl House.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7380239a681aa0c459ea1177cd6e5872
+    m_Address: Assets/Sprites/Player Icons/Owl House - Dead.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7afa1bf23b94a2742bafed6115f363cc
+    m_Address: Assets/Sprites/Player Icons/Minion.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67e5f7f8d5fbf024fab71d6bf0f762be
+    m_Address: Assets/Sprites/Player Icons/Minion - Dead.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61ed285c9c635cc46837e571e35438ac
+    m_Address: Assets/Sprites/Player Icons/JoJo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cc0491828bc58b64498938ae3f475a81
+    m_Address: Assets/Sprites/Player Icons/JoJo - Dead.png
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: 33200b02bd8de144fb06ef2eccfbe072, type: 2}
+  m_Settings: {fileID: 11400000, guid: f662245cc88445c4ca9c460c207644d3, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 4bbd60b25fedc1949b336cb6e62f3fd2, type: 2}
-    - {fileID: 11400000, guid: 608d97b2733230745b009ae236257bfc, type: 2}
+    - {fileID: 11400000, guid: 9e4dbcb0000d78c4d9f3507e5a6a5760, type: 2}
+    - {fileID: 11400000, guid: b878c440bcfdd324884efc720bc6c105, type: 2}

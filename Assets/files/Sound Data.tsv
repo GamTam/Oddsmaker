@@ -1,0 +1,37 @@
+﻿Sound Name	Loop
+select	false
+confirm	false
+checkpoint	false
+blipmale	false
+blipfemale	false
+typewriter	false
+back	false
+evidence	false
+textboxAdvance	false
+court record	false
+cross examination	false
+gavel	false
+realization	false
+reveal	false
+deskSlam	false
+faceReveal	false
+hit	false
+objectionPhoenix	false
+holdItPhoenix	false
+takeThatPhoenix	false
+interjection	false
+record flip	false
+objectionEdgeworth	false
+holdItEdgeworth	false
+takeThatEdgeworth	false
+bigHit	false
+massiveHit	false
+reverseWind	false
+gun	false
+gallery	false
+playerHit	false
+enemyDie	false
+error	false
+battleStart	false
+battleEnd	false
+wheelSelect	false

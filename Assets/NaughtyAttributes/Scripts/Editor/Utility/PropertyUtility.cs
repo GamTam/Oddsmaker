@@ -157,6 +157,8 @@ namespace NaughtyAttributes.Editor
             }
             else
             {
+                string message = showIfAttribute.GetType().Name + " needs a valid boolean condition field, property or method name to work";
+                Debug.LogWarning(message, property.serializedObject.targetObject);
 
                 return false;
             }
