@@ -1,0 +1,1437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef205bdccf1c88e489a707ddb0722209, type: 3}
+  m_Name: Atmey Test
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - _charsOnScreen: []
+    _animPlaying: 
+    _blipSound: 3
+    _background:
+      m_AssetGUID:
+      m_SubObjectName:
+      m_SubObjectType:
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: '<music:stop><color=green><sp:167><p:short>August 7, 10:00 AM
+
+      Wright
+      & Co. Law Offices<sp:33>'
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 1
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: 
+    _blipSound: 3
+    _background:
+      m_AssetGUID:
+      m_SubObjectName:
+      m_SubObjectType:
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <p:short>
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 1
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 2
+        BackgroundFadePos: -10
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 1775593157516429355, guid: 3486e535c847c0b469adf8e4784f9e70, type: 3}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <music:Atmey><shake:><flash><se:hit>ZVARRI! <p:0.5>Yes I see!
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: dezoom_normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: dezoom_normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: 'Welcome to my abode! <p:0.5>
+
+      Relax and soak up the
+
+      atmosphere...'
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: Atmey, <p:0.25>this is my-
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Phoenix
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <flash><shake:>SHHH! <p:0.25>SILENCE! <p:short>
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: zoom
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: zoom
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: ...
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: dezoom_clean_glasses
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: dezoom_clean_glasses
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: I was just in the neighborhood, <p:0.25>meeting some old friends...
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <flash><shake:><se:hit>Zvarri!
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: clean_glasses
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: clean_glasses
+    _blipSound: 0
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: '<color=red><music:stop><music:Ringtone>Brrrrring... <p:1>
+
+      Brrrrring...
+      <p:3>'
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Cellular
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 0
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <color=red><music:stop><se:ringtoneConfirm>*beep*<p:1>
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Cellular
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 3
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: proud
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: proud
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: What is it?
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: proud
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: proud
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: ...
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: sweat
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: sweat
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <se:reveal><flash><p:1>This can't be!<music:Suspense>
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: sweat
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: sweat
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: What's wrong Luke Atmey?
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Phoenix
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: sweat
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: sweat
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: ...
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <music:stop><flash><p:0.25>Nothing's wrong. <p:0.5>U<music:Atmey>hh...
+      <p:0.5>Gotta go!
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: investigation
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <p:1.5><flash><shake:><se:deskSlam>
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: smug
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: Uhh...
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Phoenix
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a4afb56eaf3a6be48a0a32ddf37d54ef, type: 3}
+      AnimPlaying: smug
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: smug
+    _blipSound: 0
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <p:1><se:reveal><music:stop>
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 3
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a4afb56eaf3a6be48a0a32ddf37d54ef, type: 3}
+      AnimPlaying: smug
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: smug
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <music:Godot>Godot? <p:0.25><flash><shake:>What are you doing here?
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Phoenix
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a4afb56eaf3a6be48a0a32ddf37d54ef, type: 3}
+      AnimPlaying: smug
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: smug
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: I'm on a special mission to find my next Godot blend.
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a4afb56eaf3a6be48a0a32ddf37d54ef, type: 3}
+      AnimPlaying: investigation
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: investigation
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <flash>I hope that's alright...
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a4afb56eaf3a6be48a0a32ddf37d54ef, type: 3}
+      AnimPlaying: investigation
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: investigation
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 7591e210ed7a46348af37b3c31be3fcf
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: Uhh... <p:0.25>Yea of course!
+    _extras:
+      Thinking: 1
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      AddToPrevious: 0
+      CustomName: Phoenix
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0.5
+        Color: {r: 0, g: 0, b: 0, a: 1}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  nextLine: {fileID: 0}
+  conditionalNextLine: []
+  skipConditions:
+  - SoTrue
+  skipIndex: 0
+  StoryFlag: SoTrue
+  dialogueType: 1
+  responses: []
+  evidence:
+  - Evidence: {fileID: 11400000, guid: a6288ef5bf30524408bca04b9bfbb2e5, type: 2}
+    Dialogue: {fileID: 11400000, guid: 2af8166aec1153c42943299a43fe8401, type: 2}
+    Conditions: []
+  prevLine: {fileID: 0}
+  conditionalPrevLine: []
+  pressSequence: {fileID: 0}
+  talkText: []
+  moveablePlaces:
+  - {fileID: 11400000, guid: 6040a80b4fad63a4282ac93fe17aa72a, type: 2}
+  Interactables: {fileID: 961315097504109876, guid: 57991c7e4e2977f4b8746b0154861cdf, type: 3}
+  wrongPresentSequence: {fileID: 0}
+  noCluesHere: {fileID: 0}
+  GameOverDialogue: {fileID: 0}
+  PhaseName: 

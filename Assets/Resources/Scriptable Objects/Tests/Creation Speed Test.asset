@@ -1,0 +1,946 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef205bdccf1c88e489a707ddb0722209, type: 3}
+  m_Name: Creation Speed Test
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - _charsOnScreen: []
+    _animPlaying: think
+    _blipSound: 0
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: ' '
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 2
+        BackgroundFadePos: -10
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: think
+    _blipSound: 3
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<color=green><sp:167>July 8th, 9:52 AM
+
+      District Court
+
+      Defendant''s
+      Lobby No. 2<sp:33>'
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: think
+    _blipSound: 0
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<p:normal> '
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 2
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: <music:Lobby>Nick,<p:tiny> I swear I didn't do it!
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: I don't know Maya...
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: 'I usually have my full faith
+
+      in my clients...'
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: 'And,<p:short><sp:17> not saying you''re
+
+      guilty here,<p:normal><sp:33>
+      but...'
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: 'something about this time
+
+      makes me<p:normal> worried.'
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 7414b34839310a442b2f259db727dd81, type: 3}
+      AnimPlaying: happy
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: happy
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: Hey, pal.<p:short> You called for me?
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 7414b34839310a442b2f259db727dd81, type: 3}
+      AnimPlaying: happy
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: happy
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: Gumshoe!<p:short> Thank goodness, you're here.
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 7414b34839310a442b2f259db727dd81, type: 3}
+      AnimPlaying: happy
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: happy
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: 'Once the trial starts, I''m going to
+
+      need to get you to do
+      some...<p:normal>
+
+      <sp:67>Chicanery.<sp:33>'
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 7414b34839310a442b2f259db727dd81, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: <sp:33>Y-<p:short>you don't mean...?
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 7414b34839310a442b2f259db727dd81, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: Unfortunately,<p:tiny> yes.<p:short> Yes I do.
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 2
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: Guys, what're you talking about?
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: Don't worry about it, Maya.
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: 'I''m going to get you a <color=red>Not Guilty</color> verdict,
+
+      if
+      it''s the last thing I do.'
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 1
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: <color=#6ebdf0>(God, I hope this works...)
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 0
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<music:fadeout> '
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ba3440121be8c3c428a96e9d113a01f1, type: 3}
+      AnimPlaying: think
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: think
+    _blipSound: 0
+    _background:
+      m_AssetGUID: ddcd442f900a2554e8a63adfd98979ff
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<p:long> '
+    _extras:
+      Thinking: 1
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: Phoenix
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 2
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: think
+    _blipSound: 3
+    _background:
+      m_AssetGUID: c2f9ad202a003b7499fe3ad9d583f26f
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<color=green><sp:167>July 8th, 10:00 AM
+
+      District Court
+
+      Courtroom
+      No. 2<sp:33>'
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: think
+    _blipSound: 0
+    _background:
+      m_AssetGUID: c2f9ad202a003b7499fe3ad9d583f26f
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<p:normal> '
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 85a276c8142ae394c8ca471cb9c4532f, type: 3}
+      AnimPlaying: talking
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: talking
+    _blipSound: 0
+    _background:
+      m_AssetGUID: c2f9ad202a003b7499fe3ad9d583f26f
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<se:gallery><p:read> <p:short> '
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 1
+        BackgroundFadePos: -10
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn:
+      - {fileID: 7449130183700099213, guid: af0742713838bec47976cede53ed5b7c, type: 3}
+      - {fileID: 2521627253534002410, guid: cfeca26d67415a24eba2d10337a0fa65, type: 3}
+      - {fileID: 7449130183700099213, guid: a5e71906ce6fb6c43956725d27e88f84, type: 3}
+      - {fileID: 6753117859596473800, guid: 6895e74d017d7d4458124700415b501b, type: 3}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a2debf2b9e8cd6545839a1de604b09cd, type: 3}
+      AnimPlaying: hammer
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: hammer
+    _blipSound: 0
+    _background:
+      m_AssetGUID: c2f9ad202a003b7499fe3ad9d583f26f
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: ' '
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: 0
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a2debf2b9e8cd6545839a1de604b09cd, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 07bf01870d7fd724da38a1682391aaa9
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    _dialogue: '<music:Court>Court is now in session for the trial
+
+      of Ms.
+      Maya Fey.'
+    _extras:
+      Thinking: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: 0
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ObjectsToSpawn: []
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  nextLine: {fileID: 0}
+  nextLineConditions: []
+  dialogueType: 0
+  responses: []
+  CourtRecordEvidence: []
+  CrossExaminationEvidence: []
+  InvestigationInteractables: {fileID: 0}
+  ImageInteractables: {fileID: 0}
+  prevLine: {fileID: 0}
+  pressSequence: {fileID: 0}
+  wrongPresentSequence: {fileID: 0}
+  ResetTalkText: 0
+  talkText: []
+  moveablePlaces: []
+  skipConditions: []
+  skipIndex: 0
+  StoryFlag: 

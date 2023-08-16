@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef205bdccf1c88e489a707ddb0722209, type: 3}
+  m_Name: Detention Center
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 0
+    _background:
+      m_AssetGUID: 6a2854727bc1b774790858d4322ba370
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 0
+    ScrollEndPercentage: 0
+    LinearScrolling: 0
+    HideForeground: 0
+    _dialogue: <music:DetentionCenter><p:short>
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: 0
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: bb807fe7cf77d144884cd1b2a95504c4, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 6a2854727bc1b774790858d4322ba370
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 0
+    ScrollEndPercentage: 0
+    LinearScrolling: 0
+    HideForeground: 1
+    _dialogue: Bonjour.
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: {fileID: 0}
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 2
+        BackgroundFadePos: 10
+        LengthInSeconds: 1.5
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 1
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  nextLine: {fileID: 0}
+  conditionalNextLine: []
+  skipConditions: []
+  skipIndex: 0
+  StoryFlag: 
+  dialogueType: 0
+  responses: []
+  evidence: []
+  prevLine: {fileID: 0}
+  conditionalPrevLine: []
+  pressSequence: {fileID: 0}
+  talkText: []
+  moveablePlaces: []
+  Interactables: {fileID: 0}
+  wrongPresentSequence: {fileID: 0}
+  noCluesHere: {fileID: 0}
+  GameOverDialogue: {fileID: 0}
+  GameName: 
+  CaseName: 
+  PhaseName: 

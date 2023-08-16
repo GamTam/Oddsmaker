@@ -1,0 +1,326 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef205bdccf1c88e489a707ddb0722209, type: 3}
+  m_Name: Trial Start
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - _charsOnScreen: []
+    _animPlaying: 
+    _blipSound: 3
+    _background:
+      m_AssetGUID:
+      m_SubObjectName:
+      m_SubObjectType:
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 0
+    ScrollEndPercentage: 0
+    _dialogue: '<color=green><sp:167><p:short>Aug 8th, 10:00 AM
+
+      Court, idk<sp:33>'
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 1
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 0
+        BackgroundFadePos: 10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen: []
+    _animPlaying: 
+    _blipSound: 3
+    _background:
+      m_AssetGUID:
+      m_SubObjectName:
+      m_SubObjectType:
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 0
+    ScrollEndPercentage: 0
+    _dialogue: <p:short>
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 1
+      HideOptions: 1
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 2
+      FadeOptions:
+        CharFade: 0
+        BackgroundFadeType: 2
+        BackgroundFadePos: -10
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 1775593157516429355, guid: 3486e535c847c0b469adf8e4784f9e70, type: 3}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a2debf2b9e8cd6545839a1de604b09cd, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 07bf01870d7fd724da38a1682391aaa9
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 0
+    ScrollEndPercentage: 0
+    _dialogue: '<music:Court>Court is now in session
+
+      for the trial of
+
+      Mr.
+      Gumshoe'
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 1
+        BackgroundFadePos: -10
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 1}
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 550e6d1bc80cc7a4d9be20d5a5f5d6d8, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 26216fe285dda4b4f8b62fa52e7f4970
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 100
+    ScrollEndPercentage: 100
+    _dialogue: 'The Prosecution is ready,
+
+      Your Honor.'
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 1}
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: normal
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 100
+    ScrollEndPercentage: 0
+    _dialogue: 'The Defense is ready,
+
+      Your Honor.'
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 1}
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 7414b34839310a442b2f259db727dd81, type: 3}
+      AnimPlaying: happy
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _animPlaying: happy
+    _blipSound: 1
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName:
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    ScrollStartPercentage: 0
+    ScrollEndPercentage: 50
+    _dialogue: Your <p:short>MOM!<music:Pursuit>
+    _extras:
+      Thinking: 0
+      FlipCharacter: 0
+      FlipBackground: 0
+      SkipOpening: 0
+      AutoEnd: 0
+      StopMusic: 1
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      CustomName: 
+      CustomForeground: 
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        BackgroundFadeType: 0
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 1}
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  nextLine: {fileID: 0}
+  conditionalNextLine: []
+  skipConditions: []
+  skipIndex: 0
+  StoryFlag: 
+  dialogueType: 0
+  responses: []
+  evidence: []
+  prevLine: {fileID: 0}
+  conditionalPrevLine: []
+  pressSequence: {fileID: 0}
+  talkText: []
+  moveablePlaces: []
+  Interactables: {fileID: 0}
+  wrongPresentSequence: {fileID: 0}
+  noCluesHere: {fileID: 0}
+  GameOverDialogue: {fileID: 0}
+  GameName: 
+  CaseName: 
+  PhaseName: 

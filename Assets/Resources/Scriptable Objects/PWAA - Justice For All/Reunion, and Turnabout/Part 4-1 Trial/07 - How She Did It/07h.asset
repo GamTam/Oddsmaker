@@ -1,0 +1,1402 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef205bdccf1c88e489a707ddb0722209, type: 3}
+  m_Name: 07h
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 1
+      StopMusic: 1
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 3
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: desk_slam
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: Ms. Miney!
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: desk_slam
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 1
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 'How you were able to hide
+
+      yourself at the scene of the
+
+      crime
+      is very simple!'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: normal
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: <music:Pursuit><flash><se:realization>You were<p:tiny>
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: smug
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 'hiding inside this
+
+      box!'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 1
+      AddToPrevious: 1
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 21300000, guid: 0249c249b6a7bde4187bde910d14f8db, type: 3}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 1
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ceafe5092b5ef2548b0bd713b3f5e28b, type: 3}
+      AnimPlaying: shocked
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 1
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Ini Miney
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: <shake><flash><se:medHit><sp:18>Aaah!
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 1
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 1
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ceafe5092b5ef2548b0bd713b3f5e28b, type: 3}
+      AnimPlaying: nervous
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 1
+      DontWaitForOpeningAnimation: 1
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Ini Miney
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 'Th-<p:tiny>Th-<p:tiny>That tiny little box!?<p:short>
+
+      No person
+      could fit in that!'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: shake_head
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 1
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: smug
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: '<sp:33>Sorry,<p:tiny> but your theory has
+
+      already been disproved.'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 95e3f7e5f65ee414bb8b272080310697, type: 3}
+      AnimPlaying: smug
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Phoenix Wright
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: '<color:blue>(Lotta disproved you when
+
+      she was hiding from
+      me in it.)'
+    _extras:
+      Thinking: 1
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ceafe5092b5ef2548b0bd713b3f5e28b, type: 3}
+      AnimPlaying: nervous
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Ini Miney
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: <sp:18><shake::1.5><flash><se:bigHit>Umm...!
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 5ba9f49ba17726944bf95ec594542f9b, type: 3}
+      AnimPlaying: sweat
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Franziska von Karma
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 100
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: '<sp:33>But<p:tiny> that clothing box was in
+
+      the <color:red>Side
+      Room</color>,<p:tiny> right!?'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 1
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: 5ba9f49ba17726944bf95ec594542f9b, type: 3}
+      AnimPlaying: arm_out
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 1
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Franziska von Karma
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 50
+    HorizontalScrollEndPercentage: 100
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: '<sp:18><flash><shake><se:psycheLockHit>Which means it has nothing
+      to
+
+      do with the murder at all!'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ceafe5092b5ef2548b0bd713b3f5e28b, type: 3}
+      AnimPlaying: nervous
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Ini Miney
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 100
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: '<sp:33>Th-<p:tiny>That''s right!<p:short>
+
+      I was sleeping there,<p:tiny>
+      so I
+
+      should know!'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ceafe5092b5ef2548b0bd713b3f5e28b, type: 3}
+      AnimPlaying: spin_hat
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Ini Miney
+    _background:
+      m_AssetGUID: 15d1013ea15023b48b876da6f2640965
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 100
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 'That clothing box was there
+
+      in the Side Room,<p:tiny> the
+      whole
+
+      time!'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a2debf2b9e8cd6545839a1de604b09cd, type: 3}
+      AnimPlaying: angry
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Judge
+    _background:
+      m_AssetGUID: 07bf01870d7fd724da38a1682391aaa9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 100
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: Hmm...<p:short> Mr. Wright.
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 0
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: a2debf2b9e8cd6545839a1de604b09cd, type: 3}
+      AnimPlaying: angry
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 1
+    _customSound: 
+    _charTalking: Judge
+    _background:
+      m_AssetGUID: 07bf01870d7fd724da38a1682391aaa9
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 100
+    HorizontalScrollEndPercentage: 50
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: 'Do you think you can prove
+
+      where the clothing box was
+
+      at
+      the time of the crime?'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 0
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 1
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 2
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 1
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  nextLine: {fileID: 0}
+  conditionalNextLine: []
+  skipConditions: []
+  skipIndex: 0
+  StoryFlag: 
+  dialogueType: 4
+  responses:
+  - _responseText: No, I can't.
+    _dialogue: {fileID: 11400000, guid: f40e49400646ec74a99739f5de6723c7, type: 2}
+  - _responseText: Yes, I can with some evidence.
+    _dialogue: {fileID: 11400000, guid: 0e0e3a7b6d707c643951aaef4e101119, type: 2}
+  evidence: []
+  prevLine: {fileID: 0}
+  conditionalPrevLine: []
+  pressSequence: {fileID: 0}
+  conditionalPressSequence: []
+  talkText: []
+  moveablePlaces: []
+  Interactables: {fileID: 0}
+  wrongPresentSequence: {fileID: 0}
+  noCluesHere: {fileID: 0}
+  GiveUp: {fileID: 0}
+  GameOverDialogue: {fileID: 0}
+  GoToTitleScreen: 0
+  PhaseName: 

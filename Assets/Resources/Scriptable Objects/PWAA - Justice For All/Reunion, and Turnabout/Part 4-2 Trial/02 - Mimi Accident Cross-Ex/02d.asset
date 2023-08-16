@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef205bdccf1c88e489a707ddb0722209, type: 3}
+  m_Name: 02d
+  m_EditorClassIdentifier: 
+  dialogueText:
+  - _charsOnScreen:
+    - CharOnScreen: {fileID: 3947108760989920373, guid: ceafe5092b5ef2548b0bd713b3f5e28b, type: 3}
+      AnimPlaying: embarrassed
+      Offset: {x: 0, y: 0}
+      SkipOpeningAnimation: 0
+      DontWaitForOpeningAnimation: 0
+      DontWaitForOpeningAnimationToEnd: 0
+      InFrontOfForeground: 0
+      Flip: 0
+      zPos: 0
+    _blipSound: 2
+    _customSound: 
+    _charTalking: Ini Miney
+    _background:
+      m_AssetGUID: 34df7b4a3a21e2349bc310f48f7e5167
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    HorizontalScrollStartPercentage: 0
+    HorizontalScrollEndPercentage: 0
+    VerticalScrollStartPercentage: 0
+    VerticalScrollEndPercentage: 0
+    ScrollSpeed: 0
+    ScrollTime: 0.5
+    DontWaitForScrolling: 0
+    LinearScrolling: 0
+    HidePreviousCharWhileSwapping: 0
+    HideForeground: 0
+    _dialogue: '<music:CrossEx><color:green><sp:33>I was, like, totally pooped
+
+      too,
+      so I, like, fell asleep
+
+      in the passenger''s seat...'
+    _extras:
+      Thinking: 0
+      FlipBackground: 0
+      AutoEnd: 0
+      StopMusic: 0
+      AddToCourtRecord: 0
+      HideNameTag: 0
+      HideOptions: 0
+      ShowTextBox: 0
+      AddToPrevious: 0
+      CustomName: 
+      CustomForeground:
+        m_AssetGUID: 
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Interjection: 0
+      Align: 0
+      FadeOptions:
+        CharFade: 1
+        CharFadeSpeed: 0
+        BackgroundFadeType: 1
+        BackgroundFadePos: -15
+        LengthInSeconds: 1
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        IncludeForeground: 0
+        InvertColors: 0
+        Grayscale: 0
+      ShowHealthBar: 1
+      HealthBarChangeAmount: 0
+      HealthBarWarnAmount: 0
+      ShowPsycheLock: 0
+      LockCount: 0
+      BreakLock: 0
+      BreakChain: 0
+      ObjectsToSpawn: []
+      ScreenAnimation: {fileID: 0}
+      StartTextAfterAnimation: 0
+      CannotAdvanceUntilAnimationDone: 0
+      FlipScreenAnimation: 0
+      LeftEvidence: {fileID: 0}
+      RightEvidence: {fileID: 0}
+      SkipIconAnimation: 0
+      WaitForIconAnimation: 0
+      Video: {fileID: 0}
+    _stateChange:
+      EvidenceToAdd: {fileID: 0}
+      EvidenceToRemove: {fileID: 0}
+      PersonToAdd: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: c6efc629ede91b64c87ccc6fa3a6130d, type: 2}
+  conditionalNextLine: []
+  skipConditions: []
+  skipIndex: 0
+  StoryFlag: 
+  dialogueType: 3
+  responses: []
+  evidence: []
+  prevLine: {fileID: 11400000, guid: 00a3becedc1798a4a92e75145b9e8393, type: 2}
+  conditionalPrevLine: []
+  pressSequence: {fileID: 11400000, guid: efaa34bfe2599cc47b04f0b7404dd89d, type: 2}
+  conditionalPressSequence: []
+  talkText: []
+  moveablePlaces: []
+  Interactables: {fileID: 0}
+  wrongPresentSequence: {fileID: 11400000, guid: 56a91fcb0390b17429e6fa942355bda3, type: 2}
+  noCluesHere: {fileID: 0}
+  GiveUp: {fileID: 0}
+  GameOverDialogue: {fileID: 0}
+  GoToTitleScreen: 0
+  PhaseName: 

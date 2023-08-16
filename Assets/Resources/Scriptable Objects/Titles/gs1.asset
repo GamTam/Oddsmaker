@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0d34e9dacab418885160b5191ff6579, type: 3}
+  m_Name: gs1
+  m_EditorClassIdentifier: 
+  GameName: 'Phoenix Wright: Ace Attorney'
+  GameAuthor: Capcom
+  GameColor: {r: 0.65882355, g: 0.6627451, b: 0.99215686, a: 0}
+  Logo: {fileID: 21300000, guid: 14c7e6e3229f61f42844619615100378, type: 3}
+  Cases:
+  - LockedAtStart: 0
+    CaseName: The First Turnabout
+    CaseArt: {fileID: -2055542283, guid: 7c3389b4d23c71044a9d40da3d47a951, type: 3}
+    CaseNameArt: {fileID: 95990882, guid: 1d61b6bf4c96d6b40b41478299113abb, type: 3}
+    StartingDialogue: {fileID: 11400000, guid: b48427fc64db54642bc63eb6778c3690, type: 2}
+  - LockedAtStart: 1
+    CaseName: Turnabout Sisters
+    CaseArt: {fileID: -32985633, guid: 7c3389b4d23c71044a9d40da3d47a951, type: 3}
+    CaseNameArt: {fileID: 794286302, guid: 1d61b6bf4c96d6b40b41478299113abb, type: 3}
+    StartingDialogue: {fileID: 11400000, guid: d38cdba013c2cca4fb09e8fb654e8035, type: 2}
+  - LockedAtStart: 1
+    CaseName: Turnabout Samurai
+    CaseArt: {fileID: 1745357733, guid: 7c3389b4d23c71044a9d40da3d47a951, type: 3}
+    CaseNameArt: {fileID: 253303765, guid: 1d61b6bf4c96d6b40b41478299113abb, type: 3}
+    StartingDialogue: {fileID: 11400000, guid: 71102a1d1b2a0df4e89774e3e2a8b151, type: 2}
+  - LockedAtStart: 1
+    CaseName: Turnabout Goodbyes
+    CaseArt: {fileID: -1044056972, guid: 7c3389b4d23c71044a9d40da3d47a951, type: 3}
+    CaseNameArt: {fileID: -335049491, guid: 1d61b6bf4c96d6b40b41478299113abb, type: 3}
+    StartingDialogue: {fileID: 0}
+  - LockedAtStart: 1
+    CaseName: Rise from the Ashes
+    CaseArt: {fileID: -1619233957, guid: 7c3389b4d23c71044a9d40da3d47a951, type: 3}
+    CaseNameArt: {fileID: 863717394, guid: 1d61b6bf4c96d6b40b41478299113abb, type: 3}
+    StartingDialogue: {fileID: 0}

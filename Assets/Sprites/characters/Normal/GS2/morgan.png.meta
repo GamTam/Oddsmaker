@@ -1,0 +1,695 @@
+fileFormatVersion: 2
+guid: 6f7889abee3fc82409ea67b8e0a9e7cf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angry/morgan_angry_base.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 807
+        height: 1159
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8384533020d1aa0800000000000000
+      internalID: -6188788100135110428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry/morgan_angry_blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3296
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789b4090d0f67ef80800000000000000
+      internalID: -8077365304889132665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry/morgan_angry_blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3296
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09a0729ae2626a20800000000000000
+      internalID: 3054112256929343756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry/morgan_angry_mouth_full.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3296
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d579490516b26bc0800000000000000
+      internalID: -3791267734826158633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry/morgan_angry_mouth_half.png
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3296
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b431592a252e70cc0800000000000000
+      internalID: -3744775720592403637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_base.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1970
+        width: 702
+        height: 594
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c2da182f6a3bf50800000000000000
+      internalID: 6896039014922267690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_base_sip_1.png
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1970
+        width: 663
+        height: 594
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b02b4a68d3e5d30800000000000000
+      internalID: 4422039532622449409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_base_sip_2.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2718
+        width: 628
+        height: 432
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9dc242d226a0a70800000000000000
+      internalID: 8793949168414284284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3296
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a6e81758d5ece30800000000000000
+      internalID: 4525657503271119425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 3296
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d533ade4382e4cab0800000000000000
+      internalID: -4988613433628150947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_head.png
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 2564
+        width: 688
+        height: 586
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12021a59356587b0800000000000000
+      internalID: -5222656895867551203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_head_sip_2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1234
+        width: 716
+        height: 736
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5966b07dc061f88a0800000000000000
+      internalID: -6300793109264767339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_mouth_full.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2988
+        width: 216
+        height: 162
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0e84d3c5f9b10c0800000000000000
+      internalID: -4603910975542206247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_normal_mouth_half.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2988
+        width: 216
+        height: 162
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e00fb807e0cedb0800000000000000
+      internalID: -4761414829490565568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_sad_blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3296
+        width: 270
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a87757b9d0dd2870800000000000000
+      internalID: 8659807292005775521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_sad_blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 3296
+        width: 270
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d924c2cadd8fd60c0800000000000000
+      internalID: -4580731615005883747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_sad_eyebrows.png
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 3171
+        width: 432
+        height: 125
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c06b7b4000000000800000000000000
+      internalID: 1266376905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_sad_head.png
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1234
+        width: 716
+        height: 736
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff152c185cd3b19f0800000000000000
+      internalID: -496735415399460353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_sad_mouth_full.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3188
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97198550dce076c20800000000000000
+      internalID: 3199542333990801785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal_sad/morgan_sad_mouth_half.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3188
+        width: 216
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b0a468f7329ab80800000000000000
+      internalID: -8383130200752649410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wipe_mouth/wipe_mouth_arm.png
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1178
+        width: 469
+        height: 792
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8b540d2714bbb30800000000000000
+      internalID: 4304105830258948274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wipe_mouth/wipe_mouth_base.png
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 0
+        width: 772
+        height: 1178
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd4f307ab4dec640800000000000000
+      internalID: 5102249325069553110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wipe_mouth/wipe_mouth_blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3188
+        width: 218
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844edd654af51a980800000000000000
+      internalID: -8529431059826351032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wipe_mouth/wipe_mouth_blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 3188
+        width: 218
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb62c352c38c2a20800000000000000
+      internalID: 3038948719220386764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wipe_mouth/wipe_mouth_mouth_half.png
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 3150
+        width: 270
+        height: 146
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7966f65b2eef81890800000000000000
+      internalID: -7486954130843408745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wipe_mouth/wipe_mouth_mouth_open.png
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 3165
+        width: 248
+        height: 131
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c52065b243c86a40800000000000000
+      internalID: 5361750047662810569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      angry/morgan_angry_base.png: -6188788100135110428
+      angry/morgan_angry_blink_1.png: -8077365304889132665
+      angry/morgan_angry_blink_2.png: 3054112256929343756
+      angry/morgan_angry_mouth_full.png: -3791267734826158633
+      angry/morgan_angry_mouth_half.png: -3744775720592403637
+      normal_sad/morgan_normal_base.png: 6896039014922267690
+      normal_sad/morgan_normal_base_sip_1.png: 4422039532622449409
+      normal_sad/morgan_normal_base_sip_2.png: 8793949168414284284
+      normal_sad/morgan_normal_blink_1.png: 4525657503271119425
+      normal_sad/morgan_normal_blink_2.png: -4988613433628150947
+      normal_sad/morgan_normal_head.png: -5222656895867551203
+      normal_sad/morgan_normal_head_sip_2.png: -6300793109264767339
+      normal_sad/morgan_normal_mouth_full.png: -4603910975542206247
+      normal_sad/morgan_normal_mouth_half.png: -4761414829490565568
+      normal_sad/morgan_sad_blink_1.png: 8659807292005775521
+      normal_sad/morgan_sad_blink_2.png: -4580731615005883747
+      normal_sad/morgan_sad_eyebrows.png: 1266376905
+      normal_sad/morgan_sad_head.png: -496735415399460353
+      normal_sad/morgan_sad_mouth_full.png: 3199542333990801785
+      normal_sad/morgan_sad_mouth_half.png: -8383130200752649410
+      wipe_mouth/wipe_mouth_arm.png: 4304105830258948274
+      wipe_mouth/wipe_mouth_base.png: 5102249325069553110
+      wipe_mouth/wipe_mouth_blink_1.png: -8529431059826351032
+      wipe_mouth/wipe_mouth_blink_2.png: 3038948719220386764
+      wipe_mouth/wipe_mouth_mouth_half.png: -7486954130843408745
+      wipe_mouth/wipe_mouth_mouth_open.png: 5361750047662810569
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

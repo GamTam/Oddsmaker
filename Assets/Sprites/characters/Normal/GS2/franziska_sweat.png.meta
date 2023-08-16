@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: ad7ca2fb14b829249b5d36951c64a33c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sweat_base.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 576
+        height: 878
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1be3a6a8680b0a0800000000000000
+      internalID: -6867841502693903939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_0.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1637
+        width: 125
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8578fb6affffffff0800000000000000
+      internalID: -1497397416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_0_1.png
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1566
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7201ded9f2d8510800000000000000
+      internalID: 1552949801846319041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_0_2.png
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1566
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb77a7ad091d2ce0800000000000000
+      internalID: -1428457960368538679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_0_3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1444
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e14e68a40f6ca20800000000000000
+      internalID: 3082415197863026188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_0_4.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1444
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefad5d89a1b05970800000000000000
+      internalID: 8741682218505449452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1637
+        width: 125
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf54d7bffffffff0800000000000000
+      internalID: -1210818596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_1_1.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1444
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d367e16009b7a2e0800000000000000
+      internalID: -2114518088733465639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_1_2.png
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1444
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe1fd8a7a17835f0800000000000000
+      internalID: -776745970814738698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_1_3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1322
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54496232003a30fa0800000000000000
+      internalID: -5835641471156972475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_1_4.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1322
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c6226d455f84220800000000000000
+      internalID: 2470494140331355269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1637
+        width: 125
+        height: 51
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5059c4a8ffffffff0800000000000000
+      internalID: -1974692603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_2_1.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1322
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0c0142c6755ce80800000000000000
+      internalID: -8159019027938623290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_2_2.png
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1322
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c387122a4419ba80800000000000000
+      internalID: -8450700917151923260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_2_3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37efbfe48af8fd480800000000000000
+      internalID: -8872214787854172557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_blink_2_4.png
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1200
+        width: 216
+        height: 122
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17963512ccbd8ff90800000000000000
+      internalID: -6919539157675841167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_closed_1.png
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1174
+        width: 216
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3772a3afc1068c0800000000000000
+      internalID: -4008171807316675593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_closed_2.png
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1174
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22410571a93c23f70800000000000000
+      internalID: 9165603258235884578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_closed_3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1026
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43069c163d1ce5f80800000000000000
+      internalID: -8115836364852207564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_closed_4.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1026
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d3898402f689860800000000000000
+      internalID: 7536896160852098411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_half_1.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1026
+        width: 216
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdafd679d8122380800000000000000
+      internalID: -8997601783251489351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_half_2.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1026
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53444ef951302790800000000000000
+      internalID: -7556985912139955366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_half_3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3445fe2aa394cca70800000000000000
+      internalID: 8848527884066706499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_half_4.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 878
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1027bd8e93d2220800000000000000
+      internalID: 2462688243518407132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_open_1.png
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 878
+        width: 216
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1087a32a7fa98590800000000000000
+      internalID: -7671407551129878497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_open_2.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 878
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c442977d8baa947b0800000000000000
+      internalID: -5239468980603116468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_open_3.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 730
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1bcb1ad951f94ee0800000000000000
+      internalID: -1276223651169187043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sweat_mouth_open_4.png
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 730
+        width: 192
+        height: 148
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729a564f21f3deb40800000000000000
+      internalID: 5471098472967285031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sweat_base.png: -6867841502693903939
+      sweat_blink_0.png: -1497397416
+      sweat_blink_0_1.png: 1552949801846319041
+      sweat_blink_0_2.png: -1428457960368538679
+      sweat_blink_0_3.png: 3082415197863026188
+      sweat_blink_0_4.png: 8741682218505449452
+      sweat_blink_1.png: -1210818596
+      sweat_blink_1_1.png: -2114518088733465639
+      sweat_blink_1_2.png: -776745970814738698
+      sweat_blink_1_3.png: -5835641471156972475
+      sweat_blink_1_4.png: 2470494140331355269
+      sweat_blink_2.png: -1974692603
+      sweat_blink_2_1.png: -8159019027938623290
+      sweat_blink_2_2.png: -8450700917151923260
+      sweat_blink_2_3.png: -8872214787854172557
+      sweat_blink_2_4.png: -6919539157675841167
+      sweat_mouth_closed_1.png: -4008171807316675593
+      sweat_mouth_closed_2.png: 9165603258235884578
+      sweat_mouth_closed_3.png: -8115836364852207564
+      sweat_mouth_closed_4.png: 7536896160852098411
+      sweat_mouth_half_1.png: -8997601783251489351
+      sweat_mouth_half_2.png: -7556985912139955366
+      sweat_mouth_half_3.png: 8848527884066706499
+      sweat_mouth_half_4.png: 2462688243518407132
+      sweat_mouth_open_1.png: -7671407551129878497
+      sweat_mouth_open_2.png: -5239468980603116468
+      sweat_mouth_open_3.png: -1276223651169187043
+      sweat_mouth_open_4.png: 5471098472967285031
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

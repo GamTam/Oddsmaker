@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: fbc111c094b16bd47bf90d4cf55d5370
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 6
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Testimony Intro Text_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1523
+        width: 750
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5, y: 0.502439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a166addc6429f24aaa74a576b8fdc8c
+      internalID: -1199955571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_1
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1524
+        width: 219
+        height: 195
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f8cdcd8fe47b45a2eb87093e15188
+      internalID: 509872856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_2
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 1523
+        width: 166
+        height: 158
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752dce1e5ffc65478752280f729d950
+      internalID: -1016602226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_3
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1523
+        width: 142
+        height: 156
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaa64452b55ab349ae67fce7e42c9c4
+      internalID: -1478286375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1296
+        width: 1016
+        height: 225
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50222224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ab5b2e756de014aa4de58b6f4fba18
+      internalID: 1530124156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_5
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1317
+        width: 266
+        height: 204
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41475591cf9e3d349a4b9e5084519063
+      internalID: 1452948661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_6
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1317
+        width: 212
+        height: 158
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe343cc8fa5f5746a3fee0b15227533
+      internalID: 2135017739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_7
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 1296
+        width: 140
+        height: 174
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f64f8583bc45c43a44030bd1d2e461
+      internalID: 1013207330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1091
+        width: 750
+        height: 205
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f02d30cfae44e4796850da38d7c2d3
+      internalID: -605937474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_9
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1091
+        width: 271
+        height: 201
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1ffc87a30f60c4bbb62ae557631342
+      internalID: 863586660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 864
+        width: 1016
+        height: 225
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e82cb9bbdad4543a43d69824765cfc
+      internalID: -617707696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_11
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 659
+        width: 750
+        height: 205
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcd317dd0ed5b048a3c2202da3f071c
+      internalID: -988464582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_12
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 659
+        width: 749
+        height: 205
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9e2ad64af48934097f21527540a09a
+      internalID: 483759955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 432
+        width: 1016
+        height: 225
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26109b003153e8a4ba00db71f1e47bf3
+      internalID: 170580473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_14
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 432
+        width: 1015
+        height: 224
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd396699ad685b74fa25adcbd7424ea7
+      internalID: 1900172527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 227
+        width: 750
+        height: 205
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f7a0a7b4776614abd38347ef437c0f
+      internalID: 1161321054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Testimony Intro Text_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 1016
+        height: 225
+      alignment: 6
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb8d450104fbec43815bf8a5ea62eeb
+      internalID: -1803273368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Testimony Intro Text_0: -1199955571
+      Testimony Intro Text_1: 509872856
+      Testimony Intro Text_10: -617707696
+      Testimony Intro Text_11: -988464582
+      Testimony Intro Text_12: 483759955
+      Testimony Intro Text_13: 170580473
+      Testimony Intro Text_14: 1900172527
+      Testimony Intro Text_15: 1161321054
+      Testimony Intro Text_16: -1774049577
+      Testimony Intro Text_17: -1803273368
+      Testimony Intro Text_18: 1744007083
+      Testimony Intro Text_2: -1016602226
+      Testimony Intro Text_3: -1478286375
+      Testimony Intro Text_4: 1530124156
+      Testimony Intro Text_5: 1452948661
+      Testimony Intro Text_6: 2135017739
+      Testimony Intro Text_7: 1013207330
+      Testimony Intro Text_8: -605937474
+      Testimony Intro Text_9: 863586660
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

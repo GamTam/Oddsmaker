@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: 3ac1aa50ab6233341bdf05067b6f549f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5586242774267384881
+    second: blink_1.png
+  - first:
+      213: 3740293340789672958
+    second: blink_2.png
+  - first:
+      213: 6191805945551387571
+    second: body_normal.png
+  - first:
+      213: -3958142402870955475
+    second: body_think.png
+  - first:
+      213: 9014233848789743140
+    second: head_think.png
+  - first:
+      213: -993559160568893828
+    second: Layer 1.png
+  - first:
+      213: 7814004780054289121
+    second: mouth_normal_1.png
+  - first:
+      213: -3778564727963947719
+    second: mouth_normal_2.png
+  - first:
+      213: -4532178228281338954
+    second: shake_head_1.png
+  - first:
+      213: -1462318497794073682
+    second: shake_head_2.png
+  - first:
+      213: 2586087700830843302
+    second: shake_head_3.png
+  - first:
+      213: 38556523843752230
+    second: shake_head_4.png
+  - first:
+      213: 5069755119278476628
+    second: think_blink_1.png
+  - first:
+      213: -3641114980297762021
+    second: think_blink_2.png
+  - first:
+      213: 8790753272270415205
+    second: think_blink_3.png
+  - first:
+      213: 7797045926131082331
+    second: think_blink_4.png
+  - first:
+      213: -3866927471735247664
+    second: think_idle_1.png
+  - first:
+      213: 4478024579304912620
+    second: think_idle_2.png
+  - first:
+      213: 5841734531568843425
+    second: think_talk_1.png
+  - first:
+      213: 8671754627677701422
+    second: think_talk_2.png
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 54
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb23b24bcda972b0800000000000000
+      internalID: -5586242774267384881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1356
+        width: 54
+        height: 54
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb078df9f038e330800000000000000
+      internalID: 3740293340789672958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_normal.png
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 61
+        width: 695
+        height: 629
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbfdbea3b6bde550800000000000000
+      internalID: 6191805945551387571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_normal_arm.png
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 690
+        width: 180
+        height: 558
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00000000000000000800000000000000
+      internalID: 0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: body_think.png
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 96
+        width: 397
+        height: 594
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22377aa47ad119c0800000000000000
+      internalID: -3958142402870955475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: head_think.png
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 889
+        width: 384
+        height: 359
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4263a6f0dedf81d70800000000000000
+      internalID: 9014233848789743140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Layer 1.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 913
+        width: 367
+        height: 335
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ea4f2253b2632f0800000000000000
+      internalID: -993559160568893828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouth_normal_1.png
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1248
+        width: 202
+        height: 162
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea175472fbe07c60800000000000000
+      internalID: 7814004780054289121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouth_normal_2.png
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1248
+        width: 202
+        height: 162
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d63ec4667df8bc0800000000000000
+      internalID: -3778564727963947719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shake_head_1.png
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 0
+        width: 378
+        height: 690
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b31884f9e77a11c0800000000000000
+      internalID: -4532178228281338954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shake_head_2.png
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 450
+        height: 468
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab508ee21dc4bbe0800000000000000
+      internalID: -1462318497794073682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shake_head_3.png
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 798
+        width: 432
+        height: 450
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1770eef01a3e320800000000000000
+      internalID: 2586087700830843302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shake_head_4.png
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 774
+        width: 365
+        height: 474
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6211b7344faf88000800000000000000
+      internalID: 38556523843752230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_blink_1.png
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1337
+        width: 123
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dcfc69b636b5640800000000000000
+      internalID: 5069755119278476628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_blink_2.png
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1337
+        width: 123
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b9ff48739287dc0800000000000000
+      internalID: -3641114980297762021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_blink_3.png
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1337
+        width: 123
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565e7c596870ff970800000000000000
+      internalID: 8790753272270415205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_blink_4.png
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1337
+        width: 123
+        height: 73
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54237495fba43c60800000000000000
+      internalID: 7797045926131082331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_idle_1.png
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1302
+        width: 185
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc650bc3f9e55ac0800000000000000
+      internalID: -3866927471735247664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_idle_2.png
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1248
+        width: 185
+        height: 162
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ffe811a3252e30800000000000000
+      internalID: 4478024579304912620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_talk_1.png
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1302
+        width: 108
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa3b4a0b92021150800000000000000
+      internalID: 5841734531568843425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: think_talk_2.png
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1302
+        width: 108
+        height: 108
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25441293e2485870800000000000000
+      internalID: 8671754627677701422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Layer 1.png: -993559160568893828
+      blink_1.png: -5586242774267384881
+      blink_2.png: 3740293340789672958
+      body_normal.png: 6191805945551387571
+      body_normal_arm.png: 0
+      body_think.png: -3958142402870955475
+      head_think.png: 9014233848789743140
+      mouth_normal_1.png: 7814004780054289121
+      mouth_normal_2.png: -3778564727963947719
+      shake_head_1.png: -4532178228281338954
+      shake_head_2.png: -1462318497794073682
+      shake_head_3.png: 2586087700830843302
+      shake_head_4.png: 38556523843752230
+      think_blink_1.png: 5069755119278476628
+      think_blink_2.png: -3641114980297762021
+      think_blink_3.png: 8790753272270415205
+      think_blink_4.png: 7797045926131082331
+      think_idle_1.png: -3866927471735247664
+      think_idle_2.png: 4478024579304912620
+      think_talk_1.png: 5841734531568843425
+      think_talk_2.png: 8671754627677701422
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

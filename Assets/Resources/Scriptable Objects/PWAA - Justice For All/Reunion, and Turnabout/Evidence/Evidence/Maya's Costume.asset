@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7766c000b1ce3e341a9a9c49b9631b78, type: 3}
+  m_Name: Maya's Costume
+  m_EditorClassIdentifier: 
+  Name: Maya's Costume
+  Icon: {fileID: 21300000, guid: 493c7e66ea16fce4ab73221e8eea5f0c, type: 3}
+  CheckImages:
+  - {fileID: 21300000, guid: d9bd69a320e8a8547b665bc7a75c88cb, type: 3}
+  Description: 'Clothes Maya was wearing at
+
+    the time of the murder. Press
+
+    the
+    Check button for details.'
